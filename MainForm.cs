@@ -16,7 +16,7 @@ namespace SidebarApp {
             InitializeLayout();
             SetupSidebar();
 
-            // Show dashboard by default
+            // Show the dashboard by default
             ShowForm(new DashboardForm());
         }
 

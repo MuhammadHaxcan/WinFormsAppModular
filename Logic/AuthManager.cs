@@ -1,8 +1,10 @@
-﻿using System;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace SidebarApp.Logic {
     public static class AuthManager {
+        // Global variable to store login state for this session
+        public static bool IsLoggedIn = false;
+
         public static bool AuthenticateUser(string username, string password) {
             // Placeholder for real authentication (e.g., check DB or API)
             return username == "admin" && password == "1234";
